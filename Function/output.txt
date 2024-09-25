@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+#define ll long long
+#define MAX 1000000
+using namespace std;
+void Nhap(ll a[], ll &n){
+	cout<<"Nhap n: ";
+	cin>>n;
+	for(int i=0; i<n; i++){
+		cout<<i<<"1. ";
+		cin>>a[i];
+	} 
+}
+void Xuat(ll a[], ll n){
+	for(int i=0; i<n; i++){
+		cout<<a[i]<<" ";
+	}
+}
+int main(){
+	ll a[MAX], n;
+	Nhap(a,n);
+	Xuat(a,n);
+}
